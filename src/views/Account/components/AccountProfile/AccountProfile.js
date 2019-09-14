@@ -44,7 +44,7 @@ const AccountProfile = props => {
     city: 'Wellesley',
     country: 'USA',
     timezone: 'GTM-8',
-    avatar: '/images/avatars/Audrea_Huang.jpg'
+    avatar: '/images/avatars/Audrea_Huang.png'
   };
 
   return (
