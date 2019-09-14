@@ -40,11 +40,11 @@ const AccountProfile = props => {
   const classes = useStyles();
 
   const user = {
-    name: 'Shen Zhi',
+    name: 'Audrea Huang',
     city: 'Los Angeles',
     country: 'USA',
     timezone: 'GTM-7',
-    avatar: '/images/avatars/avatar_11.png'
+    avatar: '/images/avatars/Audrea_Huang.JPG'
   };
 
   return (
@@ -59,7 +59,7 @@ const AccountProfile = props => {
               gutterBottom
               variant="h2"
             >
-              John Doe
+              Audrea Huang
             </Typography>
             <Typography
               className={classes.locationText}

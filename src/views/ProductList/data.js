@@ -3,10 +3,9 @@ import uuid from 'uuid/v1';
 export default [
   {
     id: uuid(),
-    title: 'Dropbox',
-    description:
-      'Dropbox is a file hosting service that offers cloud storage, file synchronization, a personal cloud.',
-    imageUrl: '/images/products/product_1.png',
+    title: 'Underwater Basket Weaving',
+    description:'Are you struggling to weave your baskets? Learn all weaving techniques step-by-step. Consists of short lecture and demonstration videos, between 8 and 10 minutes in length, short quizzes, and practical weaving exercises.',
+    imageUrl: '/images/products/product_1.jpeg',
     totalDownloads: '594',
     updatedAt: '27/03/2019'
   },
