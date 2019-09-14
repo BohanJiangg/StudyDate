@@ -171,6 +171,7 @@ const SignIn = props => {
   };
 
   const handleSignIn = event => {
+    console.log('hasd')
     event.preventDefault();
     history.push('/');
   };
@@ -195,15 +196,14 @@ const SignIn = props => {
                 className={classes.quoteText}
                 variant="h1"
               >
-                Hella narwhal Cosby sweater McSweeney's, salvia kitsch before
-                they sold out High Life.
+                Welcome to StudyDate
               </Typography>
               <div className={classes.person}>
                 <Typography
                   className={classes.name}
                   variant="body1"
                 >
-                  Takamaru Ayako
+                  We're an 
                 </Typography>
                 <Typography
                   className={classes.bio}
@@ -247,7 +247,7 @@ const SignIn = props => {
                 <Grid
                   className={classes.socialButtons}
                   container
-                  spacing={2}
+                  spacing={1}
                 >
                   <Grid item>
                     <Button
@@ -260,19 +260,9 @@ const SignIn = props => {
                       Login with Facebook
                     </Button>
                   </Grid>
-                  <Grid item>
-                    <Button
-                      onClick={handleSignIn}
-                      size="large"
-                      variant="contained"
-                    >
-                      <GoogleIcon className={classes.socialIcon} />
-                      Login with Google
-                    </Button>
-                  </Grid>
                 </Grid>
                 <Typography
-                  align="center"
+                  align="left"
                   className={classes.sugestion}
                   color="textSecondary"
                   variant="body1"
