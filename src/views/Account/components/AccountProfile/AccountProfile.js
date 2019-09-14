@@ -41,10 +41,17 @@ const AccountProfile = props => {
 
   const user = {
     name: 'Audrea Huang',
+<<<<<<< HEAD
     city: 'Los Angeles',
     country: 'USA',
     timezone: 'GTM-7',
     avatar: '/images/avatars/Audrea_Huang.JPG'
+=======
+    city: 'Wellesley',
+    country: 'USA',
+    timezone: 'GTM-8',
+    avatar: '/images/avatars/Audrea_Huang.png'
+>>>>>>> 4fa003314507ef77240b384b6b92de1e359f71cf
   };
 
   return (
