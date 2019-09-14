@@ -11,6 +11,7 @@ import ImageIcon from '@material-ui/icons/Image';
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import SettingsIcon from '@material-ui/icons/Settings';
 import LockOpenIcon from '@material-ui/icons/LockOpen';
+import CastForEducationIcon from '@material-ui/icons/CastForEducation';
 
 import { Profile, SidebarNav, UpgradePlan } from './components';
 
@@ -54,9 +55,9 @@ const Sidebar = props => {
       icon: <PeopleIcon />
     },
     {
-      title: 'Products',
+      title: 'Courses',
       href: '/products',
-      icon: <LockOpenIcon />
+      icon: <CastForEducationIcon />
     },
     {
       title: 'Authentication',
