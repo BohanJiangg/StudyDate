@@ -39,6 +39,7 @@
     "react": "^16.8.6",
     "react-chartjs-2": "^2.7.6",
     "react-dom": "^16.8.6",
+    "react-facebook-login": "^4.1.1",
     "react-perfect-scrollbar": "^1.5.3",
     "react-router-dom": "^5.0.1",
     "react-scripts": "^3.1.1",

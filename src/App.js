@@ -24,6 +24,20 @@ validate.validators = {
 };
 
 export default class App extends Component {
+
+  constructor() {
+    super();
+    this.state = { isAuthenticated: false, user: null, token: ''};
+  }
+  
+  //changeState = (vars) => {
+  //  this.setState({isAuthenticated:vars.auth, token:vars.token, user:vars.users})
+  //};
+
+  logout = () => {
+      this.setState({isAuthenticated: false, token: '', user: null})
+  };
+
   render() {
     return (
       <ThemeProvider theme={theme}>
