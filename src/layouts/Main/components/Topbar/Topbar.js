@@ -12,6 +12,13 @@ const useStyles = makeStyles(theme => ({
   root: {
     boxShadow: 'none'
   },
+  // logo: {
+  //   marginLeft: 'auto',
+  //   height: 10,
+  //   width: 10,
+  //   flexShrink: 1,
+  //   flexGrow: 1
+  // },
   flexGrow: {
     flexGrow: 1
   },
@@ -36,7 +43,7 @@ const Topbar = props => {
         <RouterLink to="/">
           <img
             alt="Logo"
-            src="/images/logos/logo--white.svg"
+            src="/images/logos/logo.png"
           />
         </RouterLink>
         <div className={classes.flexGrow} />
