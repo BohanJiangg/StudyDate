@@ -40,11 +40,11 @@ const AccountProfile = props => {
   const classes = useStyles();
 
   const user = {
-    name: 'Shen Zhi',
-    city: 'Los Angeles',
+    name: 'Audrea Huang',
+    city: 'Wellesley',
     country: 'USA',
-    timezone: 'GTM-7',
-    avatar: '/images/avatars/avatar_11.png'
+    timezone: 'GTM-8',
+    avatar: '/images/avatars/Audrea_Huang.jpg'
   };
 
   return (
