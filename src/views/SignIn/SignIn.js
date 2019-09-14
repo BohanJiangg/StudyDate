@@ -58,7 +58,7 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundImage: 'url(/images/auth.jpg)',
+    backgroundImage: 'url(/images/panel.png)',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center'
@@ -209,15 +209,16 @@ const SignIn = props => {
               <div className={classes.person}>
                 <Typography
                   className={classes.name}
-                  variant="body1"
+                  variant="h3"
                 >
-                  We're an 
+                  Enhance the way you study! 
                 </Typography>
                 <Typography
                   className={classes.bio}
                   variant="body2"
                 >
-                  Manager at inVision
+                  Start meeting people in your area who are taking 
+                  similar courses or study on your own using our online courses. Track your progress and connect with friends to innovate your learning. 
                 </Typography>
               </div>
             </div>
