@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link as RouterLink, withRouter } from 'react-router-dom';
+import { Route, Redirect } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import validate from 'validate.js';
 import { makeStyles } from '@material-ui/styles';
@@ -12,9 +13,10 @@ import {
   Typography
 } from '@material-ui/core';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
+import FacebookLoginWithButton from 'react-facebook-login';
+import { createBrowserHistory } from 'history';
 
-import { Facebook as FacebookIcon, Google as GoogleIcon } from 'icons';
-
+const browserHistory = createBrowserHistory();
 const schema = {
   email: {
     presence: { allowEmpty: false, message: 'is required' },
@@ -30,7 +32,13 @@ const schema = {
     }
   }
 };
-
+const responseFacebook = (response) => {
+  console.log(response);
+  window.location.replace('/dashboard')
+}
+const componentClicked = () => {
+  console.log( "Clicked Login" )
+}
 const useStyles = makeStyles(theme => ({
   root: {
     backgroundColor: theme.palette.background.default,
@@ -127,7 +135,7 @@ const useStyles = makeStyles(theme => ({
 
 const SignIn = props => {
   const { history } = props;
-
+  
   const classes = useStyles();
 
   const [formState, setFormState] = useState({
@@ -250,15 +258,12 @@ const SignIn = props => {
                   spacing={1}
                 >
                   <Grid item>
-                    <Button
-                      color="primary"
-                      onClick={handleSignIn}
-                      size="large"
-                      variant="contained"
-                    >
-                      <FacebookIcon className={classes.socialIcon} />
-                      Login with Facebook
-                    </Button>
+                  <FacebookLoginWithButton
+                  appId="765045890565504"
+                  fields="name,email,picture"
+                  onClick={componentClicked}
+                  callback={responseFacebook}
+                  icon="fa-facebook"/>
                   </Grid>
                 </Grid>
                 <Typography
