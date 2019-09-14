@@ -12,6 +12,13 @@ const useStyles = makeStyles(theme => ({
   root: {
     boxShadow: 'none'
   },
+  // logo: {
+  //   marginLeft: 'auto',
+  //   height: 10,
+  //   width: 10,
+  //   flexShrink: 1,
+  //   flexGrow: 1
+  // },
   flexGrow: {
     flexGrow: 1
   },
