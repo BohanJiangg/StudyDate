@@ -15,7 +15,7 @@ export default [
     title: 'Musical Theatre',
     description:
       'We explore the boundaries, powers, and conversations great musicals having with one another, as long with who creates them.',
-    imageUrl: '/images/products/product_2.png',
+    imageUrl: '/images/products/musical theatre.jpg',
     totalDownloads: '625',
     createdAt: '31/03/2019'
   },
@@ -24,7 +24,7 @@ export default [
     title: 'Genetics',
     description:
       'Develop an understanding of the fundamental principles of genetics at the molecular, cellular, organismal and population levels.',
-    imageUrl: '/images/products/product_3.png',
+    imageUrl: '/images/products/genes.jpg',
     totalDownloads: '857',
     createdAt: '03/04/2019'
   },
