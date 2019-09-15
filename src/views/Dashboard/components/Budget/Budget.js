@@ -62,15 +62,11 @@ const Budget = props => {
               gutterBottom
               variant="body2"
             >
-              BUDGET
+              Progress
             </Typography>
-            <Typography variant="h3">$24,000</Typography>
+            <Typography variant="h3">35% complete</Typography>
           </Grid>
-          <Grid item>
-            <Avatar className={classes.avatar}>
-              <MoneyIcon className={classes.icon} />
-            </Avatar>
-          </Grid>
+          
         </Grid>
         <div className={classes.difference}>
           <ArrowDownwardIcon className={classes.differenceIcon} />

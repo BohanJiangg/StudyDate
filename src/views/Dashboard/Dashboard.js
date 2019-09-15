@@ -6,7 +6,7 @@ import {
   Budget,
   TotalUsers,
   TasksProgress,
-  TotalProfit,
+
   LatestSales,
   UsersByDevice,
   LatestProducts,
@@ -62,33 +62,6 @@ const Dashboard = () => {
           xl={3}
           xs={12}
         >
-          <TotalProfit />
-        </Grid>
-        <Grid
-          item
-          lg={8}
-          md={12}
-          xl={9}
-          xs={12}
-        >
-          <LatestSales />
-        </Grid>
-        <Grid
-          item
-          lg={4}
-          md={6}
-          xl={3}
-          xs={12}
-        >
-          <UsersByDevice />
-        </Grid>
-        <Grid
-          item
-          lg={4}
-          md={6}
-          xl={3}
-          xs={12}
-        >
           <LatestProducts />
         </Grid>
         <Grid
@@ -98,7 +71,6 @@ const Dashboard = () => {
           xl={9}
           xs={12}
         >
-          <LatestOrders />
         </Grid>
       </Grid>
     </div>
