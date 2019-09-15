@@ -59,11 +59,11 @@ const Sidebar = props => {
       href: '/products',
       icon: <CastForEducationIcon />
     },
-    {
-      title: 'Authentication',
-      href: '/sign-in',
-      icon: <LockOpenIcon />
-    },
+    // {
+    //   title: 'Authentication',
+    //   href: '/sign-in',
+    //   icon: <LockOpenIcon />
+    // },
     {
       title: 'Typography',
       href: '/typography',
