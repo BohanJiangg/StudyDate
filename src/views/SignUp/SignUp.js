@@ -210,21 +210,25 @@ const SignUp = props => {
                 className={classes.quoteText}
                 variant="h1"
               >
-                Welcome to StudyDate!
+                Welcome to StudyDate.
               </Typography>
+              <br></br>
               <div className={classes.person}>
                 <Typography
                   className={classes.name}
-                  variant="h2"
+                  variant="h3"
                 >
-                  Enhance the way you study
+                  Enhance the way you study!
                 </Typography>
+                <br></br>
                 <Typography
                   className={classes.bio}
-                  variant="body2"
+                  variant="body1"
+                  align = "center"
                 >
-                  Start meeting people in your area who are taking 
-                  similar courses or study on your own using our online courses. Track your progress and connect with friends to innovate your learning. 
+                  Start meeting people in your area who are taking similar courses or <br/>
+                  study on your own using our online courses. Track your progress and <br/> 
+                  connect with friends to innovate your learning. 
                 </Typography>
               </div>
             </div>

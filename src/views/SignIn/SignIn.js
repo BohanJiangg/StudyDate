@@ -220,7 +220,9 @@ const SignIn = props => {
                   variant="body1"
                   align="center"
                 >
-                  Start meeting people in your area who are taking similar courses or study on your own using our online courses. Track your progress and connect with friends to innovate your learning. 
+                  Start meeting people in your area who are taking similar courses or <br/>
+                  study on your own using our online courses. Track your progress and <br/> 
+                  connect with friends to innovate your learning. 
                 </Typography>
               </div>
             </div>

@@ -62,7 +62,7 @@ const Budget = props => {
               gutterBottom
               variant="body2"
             >
-              Progress
+              PROGRESS
             </Typography>
             <Typography variant="h3">35% complete</Typography>
           </Grid>

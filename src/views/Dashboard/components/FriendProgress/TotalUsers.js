@@ -53,7 +53,9 @@ const TotalUsers = props => {
       <CardContent>
         <Grid
           container
+          flexDirection="row"
           justify="space-between"
+          
         >
           <Grid item>
             <Typography
@@ -62,14 +64,21 @@ const TotalUsers = props => {
               gutterBottom
               variant="body2"
             >
-              TOTAL USERS
+              FRIEND PROGRESS
             </Typography>
-            <Typography variant="h3">1,600</Typography>
+            <Typography variant="h3">Julie just completed Chapter 5 of Portuguese Literature!</Typography>
+            <Typography variant="h3">Emma just completed Chapter 3 of Computer Systems!</Typography>
+          
+            
           </Grid>
-          <Grid item>
-            <Avatar className={classes.avatar}>
+            
+          <Grid item> 
+            <Avatar className={classes.avatar} style={{float: 'right'}}>
               <PeopleIcon className={classes.icon} />
             </Avatar>
+          
+              
+            
           </Grid>
         </Grid>
         <div className={classes.difference}>
