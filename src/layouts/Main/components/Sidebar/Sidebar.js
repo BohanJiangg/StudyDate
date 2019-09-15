@@ -56,7 +56,7 @@ const Sidebar = props => {
     },
     {
       title: 'Courses',
-      href: '/products',
+      href: '/courses',
       icon: <CastForEducationIcon />
     },
     {

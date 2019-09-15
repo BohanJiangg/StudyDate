@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/styles';
-import { Button } from '@material-ui/core';
+import { Button, Typography } from '@material-ui/core';
 
 import { SearchInput } from 'components';
 
@@ -39,20 +39,19 @@ const ProductsToolbar = props => {
       className={clsx(classes.root, className)}
     >
       <div className={classes.row}>
+        <Typography variant="h4">Courses</Typography>
         <span className={classes.spacer} />
-        <Button className={classes.importButton}>Import</Button>
-        <Button className={classes.exportButton}>Export</Button>
         <Button
           color="primary"
           variant="contained"
         >
-          Add product
+          Add Course
         </Button>
       </div>
       <div className={classes.row}>
         <SearchInput
           className={classes.searchInput}
-          placeholder="Search product"
+          placeholder="Search Course"
         />
       </div>
     </div>
