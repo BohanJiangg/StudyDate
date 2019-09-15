@@ -2,7 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/styles';
+<<<<<<< HEAD:src/views/CourseList/components/ProductsToolbar/ProductsToolbar.js
 import { Button, Typography } from '@material-ui/core';
+=======
+import { Button } from '@material-ui/core';
+import { IconButton, Grid, Typography } from '@material-ui/core';
+>>>>>>> e8dca42af7545abfb062c88fbdf84fa4f60e7c10:src/views/ProductList/components/ProductsToolbar/ProductsToolbar.js
 
 import { SearchInput } from 'components';
 
