@@ -28,7 +28,11 @@ const Profile = props => {
 
   const user = {
     name: 'Audrea Huang',
+<<<<<<< HEAD
     avatar: '/images/avatars/Audrea_Huang.png',
+=======
+    avatar: '/images/avatars/Audrea_Huang.JPG',
+>>>>>>> f6ef14ce0213a53a01de4cd765c068f9f94c09d0
     bio: 'CS Undergrad'
   };
 

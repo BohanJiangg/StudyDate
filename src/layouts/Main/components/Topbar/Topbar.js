@@ -45,8 +45,8 @@ const Topbar = props => {
           <img
             alt="Logo"
             src="/images/logos/studyDateLogo.svg"
-            height="15%" 
-            width="15%"
+            height="35%" 
+            width="35%"
           />
         </RouterLink>
         <div className={classes.flexGrow} />
