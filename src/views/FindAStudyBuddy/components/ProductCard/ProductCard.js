@@ -8,13 +8,16 @@ import {
   CardActions,
   Typography,
   Grid,
-  Divider
+  Divider,
+  Button
 } from '@material-ui/core';
 import AccessTimeIcon from '@material-ui/icons/AccessTime';
 import GetAppIcon from '@material-ui/icons/LocalLibrary';
 
 const useStyles = makeStyles(theme => ({
-  root: {},
+  root: {
+      justifyContent: 'center'
+  },
   imageContainer: {
     height: 128,
     width: 128,
@@ -49,7 +52,7 @@ const ProductCard = props => {
       {...rest}
       className={clsx(classes.root, className)}
     >
-      <CardContent>
+      <CardContent style={{justifyContent: 'center'}}>
         <div className={classes.imageContainer}>
           <img
             alt="Product"
@@ -70,6 +73,13 @@ const ProductCard = props => {
         >
           {product.description}
         </Typography>
+        <Button
+          color="primary"
+          variant="contained"
+          size='small'
+        >
+          Add Study Buddy
+        </Button>
       </CardContent>
       <Divider />
       <CardActions>
