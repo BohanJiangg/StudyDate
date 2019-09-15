@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/styles';
 import { Grid } from '@material-ui/core';
+import {Launcher} from 'react-chat-window'
 
 import {
   Budget,
@@ -19,9 +20,9 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-const Dashboard = () => {
+const Dashboard = (props) => {
   const classes = useStyles();
-
+  console.log(props)
   return (
     <div className={classes.root}>
       <Grid
@@ -56,6 +57,16 @@ const Dashboard = () => {
           <TasksProgress />
         </Grid> 
       </Grid>
+      <Launcher
+        agentProfile={{
+          teamName: 'Chat with Sharon',
+          imageUrl: '/images/avatars/avatar_chat.png'
+
+        }}
+        //onMessageWasSent={this._onMessageWasSent.bind(this)}
+        //messageList={this.state.messageList}
+        showEmoji
+      />
     </div>
   );
 };

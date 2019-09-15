@@ -9,6 +9,7 @@ import NotificationsIcon from '@material-ui/icons/NotificationsOutlined';
 import InputIcon from '@material-ui/icons/Input';
 import MessageIcon from '@material-ui/icons/Message';
 import {Typography} from '@material-ui/core';
+import {Launcher} from 'react-chat-window'
 const useStyles = makeStyles(theme => ({
   root: {
     boxShadow: 'none'
@@ -28,12 +29,20 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
+
+const openChat = () => {
+  console.log( "Clicked Chat" );
+  
+}
+
 const Topbar = props => {
   const { className, onSidebarOpen, ...rest } = props;
 
   const classes = useStyles();
 
   const [notifications] = useState([]);
+
+
 
   return (
     <AppBar
@@ -56,6 +65,7 @@ const Topbar = props => {
               badgeContent={notifications.length}
               color="primary"
               variant="dot"
+              onClick={openChat}
             >
               <MessageIcon />
             </Badge>
@@ -65,6 +75,7 @@ const Topbar = props => {
               badgeContent={notifications.length}
               color="primary"
               variant="dot"
+             
             >
               <NotificationsIcon />
             </Badge>
