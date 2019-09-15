@@ -6,7 +6,7 @@ export default [
     ref: 'CDD1049',
     amount: 30.5,
     customer: {
-      name: 'Ekaterina Tankova'
+      name: 'Bianca Pio'
     },
     createdAt: 1555016400000,
     status: 'pending'
@@ -41,24 +41,6 @@ export default [
     createdAt: 1554757200000,
     status: 'pending'
   },
-  {
-    id: uuid(),
-    ref: 'CDD1045',
-    amount: 32.54,
-    customer: {
-      name: 'Clarke Gillebert'
-    },
-    createdAt: 1554670800000,
-    status: 'delivered'
-  },
-  {
-    id: uuid(),
-    ref: 'CDD1044',
-    amount: 16.76,
-    customer: {
-      name: 'Adam Denisov'
-    },
-    createdAt: 1554670800000,
-    status: 'delivered'
-  }
+  
+  
 ];
