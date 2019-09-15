@@ -41,12 +41,12 @@ const ProductsToolbar = props => {
       <div className={classes.row}>
         <Typography variant="h4">Find a study buddy</Typography>
         <span className={classes.spacer} />
-        <Button
+        {/* <Button
           color="primary"
           variant="contained"
         >
           Add Study Buddy
-        </Button>
+        </Button> */}
       </div>
       <div className={classes.row}>
         <SearchInput
