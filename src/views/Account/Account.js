@@ -18,16 +18,19 @@ const Account = () => {
       <Grid
         container
         spacing={4}
+        justify="center"
+        alignItems="center"
       >
         <Grid
           item
-          lg={4}
+          lg={8}
           md={6}
-          xl={4}
+          xl={8}
           xs={12}
         >
           <AccountProfile />
         </Grid>
+        
         <Grid
           item
           lg={8}
