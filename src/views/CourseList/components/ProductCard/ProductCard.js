@@ -15,7 +15,10 @@ import AccessTimeIcon from '@material-ui/icons/AccessTime';
 import GetAppIcon from '@material-ui/icons/LocalLibrary';
 
 const useStyles = makeStyles(theme => ({
-  root: {},
+  root: {
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
   imageContainer: {
     height: 128,
     width: 128,
@@ -74,6 +77,8 @@ const ProductCard = props => {
         <Button
           color="primary"
           variant="contained"
+          justifyContent="center"
+          align="center"
           size='small'
         >
           Add Course
