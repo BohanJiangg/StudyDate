@@ -50,7 +50,7 @@ const Sidebar = props => {
       icon: <DashboardIcon />
     },
     {
-      title: 'Users',
+      title: 'Friends',
       href: '/users',
       icon: <PeopleIcon />
     },
