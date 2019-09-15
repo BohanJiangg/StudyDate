@@ -53,8 +53,9 @@ const SidebarNav = props => {
   const { pages, className, ...rest } = props;
 
   const classes = useStyles();
-
+  
   return (
+    
     <List
       {...rest}
       className={clsx(classes.root, className)}

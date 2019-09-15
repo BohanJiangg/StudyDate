@@ -22,7 +22,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-const ProductList = () => {
+const CourseList = () => {
   const classes = useStyles();
 
   const [products] = useState(mockData);
@@ -49,7 +49,7 @@ const ProductList = () => {
         </Grid>
       </div>
       <div className={classes.pagination}>
-        <Typography variant="caption">1-6 of 20</Typography>
+        <Typography variant="caption">1-5 of 5</Typography>
         <IconButton>
           <ChevronLeftIcon />
         </IconButton>
@@ -61,4 +61,4 @@ const ProductList = () => {
   );
 };
 
-export default ProductList;
+export default CourseList;

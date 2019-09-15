@@ -204,8 +204,9 @@ const SignIn = props => {
                 className={classes.quoteText}
                 variant="h1"
               >
-                Welcome to StudyDate
+                Welcome to StudyDate.
               </Typography>
+              <br></br>
               <div className={classes.person}>
                 <Typography
                   className={classes.name}
@@ -213,12 +214,13 @@ const SignIn = props => {
                 >
                   Enhance the way you study! 
                 </Typography>
+                <br></br>
                 <Typography
                   className={classes.bio}
-                  variant="body2"
+                  variant="body1"
+                  align="center"
                 >
-                  Start meeting people in your area who are taking 
-                  similar courses or study on your own using our online courses. Track your progress and connect with friends to innovate your learning. 
+                  Start meeting people in your area who are taking similar courses or study on your own using our online courses. Track your progress and connect with friends to innovate your learning. 
                 </Typography>
               </div>
             </div>
@@ -231,10 +233,8 @@ const SignIn = props => {
           xs={12}
         >
           <div className={classes.content}>
-            <div className={classes.contentHeader}>
-              <IconButton onClick={handleBack}>
-                <ArrowBackIcon />
-              </IconButton>
+          <div className={classes.contentHeader}>
+              
             </div>
             <div className={classes.contentBody}>
               <form

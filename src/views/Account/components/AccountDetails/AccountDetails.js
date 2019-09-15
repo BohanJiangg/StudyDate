@@ -23,11 +23,11 @@ const AccountDetails = props => {
   const classes = useStyles();
 
   const [values, setValues] = useState({
-    firstName: 'Shen',
-    lastName: 'Zhi',
-    email: 'shen.zhi@devias.io',
+    firstName: 'Audrea',
+    lastName: 'Huang',
+    email: 'audrea.huang@studydate.com',
     phone: '',
-    state: 'Alabama',
+    state: 'Wellesley',
     country: 'USA'
   });
 
@@ -40,8 +40,8 @@ const AccountDetails = props => {
 
   const states = [
     {
-      value: 'alabama',
-      label: 'Alabama'
+      value: 'massachusetts',
+      label: 'Massachusetts'
     },
     {
       value: 'new-york',
