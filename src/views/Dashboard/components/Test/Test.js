@@ -65,6 +65,7 @@ const Test = props => {
               RESUME COURSES
             </Typography>
             <Typography variant="h3">Intro to Financial Accounting</Typography>
+            <img src='/images/Courses/finance.jpg'/>
             <Typography variant="h3">Computer Systems and Hardware</Typography>
             <Typography variant="h3">Urban Studies and Policy</Typography>
             <Typography variant="h3">Portuguese Literature</Typography>
