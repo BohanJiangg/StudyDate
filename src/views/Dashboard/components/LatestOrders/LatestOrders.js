@@ -108,7 +108,7 @@ const LatestOrders = props => {
                     <TableCell>{order.ref}</TableCell>
                     <TableCell>{order.customer.name}</TableCell>
                     <TableCell>
-                      {moment(order.createdAt).format('DD/MM/YYYY')}
+                      {moment(order.createdAt)}
                     </TableCell>
                     <TableCell>
                       <div className={classes.statusContainer}>
