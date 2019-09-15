@@ -98,7 +98,7 @@ const ProductCard = props => {
               display="inline"
               variant="body2"
             >
-              {product.totalDownloads} Enrolled
+              {product.totalDownloads} Members
             </Typography>
           </Grid>
         </Grid>
