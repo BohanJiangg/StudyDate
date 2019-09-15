@@ -58,6 +58,7 @@ const CourseInterests = props => {
       {...rest}
       className={clsx(classes.root, className)}
     >
+     
       <form
         autoComplete="off"
         noValidate
@@ -198,7 +199,9 @@ const CourseInterests = props => {
                 // value={values.gradYear}
                 variant="outlined"
               />
+              
             <Button
+              style={{marginLeft: 3, marginTop:4, marginRight:3, marginBotton:3}}
               color="primary"
               variant="contained"
               >
@@ -206,6 +209,7 @@ const CourseInterests = props => {
             </Button>
             <p style={{marginRight:2}}></p>
             <Button
+            style={{marginTop:3, marginRight:4, marginBotton:3}}
               color="primary"
               variant="contained"
               >
@@ -213,6 +217,7 @@ const CourseInterests = props => {
             </Button>
             <p style={{marginRight:2}}></p>
             <Button
+            style={{marginTop:3, marginRight:4, marginBotton:3}}
               color="primary"
               variant="contained"
               >
@@ -220,6 +225,7 @@ const CourseInterests = props => {
             </Button>
             <p style={{marginRight:2}}></p>
             <Button
+            style={{marginTop:3, marginRight:4, marginBotton:3}}
               color="primary"
               variant="contained"
               >
@@ -230,6 +236,7 @@ const CourseInterests = props => {
         <Divider />
         <CardActions>
           <Button
+          style={{marginTop:3}}
             color="primary"
             variant="contained"
           >
