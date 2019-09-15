@@ -16,8 +16,8 @@ import GetAppIcon from '@material-ui/icons/LocalLibrary';
 const useStyles = makeStyles(theme => ({
   root: {},
   imageContainer: {
-    height: 64,
-    width: 64,
+    height: 128,
+    width: 128,
     margin: '0 auto',
     border: `1px solid ${theme.palette.divider}`,
     borderRadius: '5px',

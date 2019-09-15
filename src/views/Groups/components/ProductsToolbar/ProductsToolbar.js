@@ -15,7 +15,8 @@ const useStyles = makeStyles(theme => ({
     marginTop: theme.spacing(1)
   },
   spacer: {
-    flexGrow: 1
+    flexGrow: 1,
+    justify: 'space-between'
   },
   importButton: {
     marginRight: theme.spacing(1)
@@ -39,19 +40,26 @@ const ProductsToolbar = props => {
       className={clsx(classes.root, className)}
     >
       <div className={classes.row}>
-        <Typography variant="h4">Courses</Typography>
+        <Typography variant="h4">Groups</Typography>
         <span className={classes.spacer} />
         <Button
           color="primary"
           variant="contained"
         >
-          Add Course
+          Create New Group
+        </Button>
+        <span className={classes.spacer} />
+        <Button
+          color="primary"
+          variant="contained"
+        >
+          Add Groups
         </Button>
       </div>
       <div className={classes.row}>
         <SearchInput
           className={classes.searchInput}
-          placeholder="Search Course"
+          placeholder="Search Groups"
         />
       </div>
     </div>
