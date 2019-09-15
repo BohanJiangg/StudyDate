@@ -8,6 +8,8 @@ import {
   Card,
   CardActions,
   CardContent,
+  CardMedia,
+  Divider,
   Avatar,
   Checkbox,
   Table,
@@ -16,7 +18,9 @@ import {
   TableHead,
   TableRow,
   Typography,
-  TablePagination
+  TablePagination,
+  Grid,
+  TextField
 } from '@material-ui/core';
 
 import { getInitials } from 'helpers';
@@ -93,14 +97,7 @@ const UsersTable = props => {
   };
 
   return (
-    <Card
-      {...rest}
-      className={clsx(classes.root, className)}
-    >
-      <CardContent className={classes.content}>
-        <PerfectScrollbar>
-          <div className={classes.inner}>
-            <Table>
+    <Table>
               <TableHead>
                 <TableRow>
                   <TableCell padding="checkbox">
@@ -161,21 +158,6 @@ const UsersTable = props => {
                 ))}
               </TableBody>
             </Table>
-          </div>
-        </PerfectScrollbar>
-      </CardContent>
-      <CardActions className={classes.actions}>
-        <TablePagination
-          component="div"
-          count={users.length}
-          onChangePage={handlePageChange}
-          onChangeRowsPerPage={handleRowsPerPageChange}
-          page={page}
-          rowsPerPage={rowsPerPage}
-          rowsPerPageOptions={[5, 10, 25]}
-        />
-      </CardActions>
-    </Card>
   );
 };
 

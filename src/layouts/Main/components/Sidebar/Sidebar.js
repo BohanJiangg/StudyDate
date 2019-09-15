@@ -13,6 +13,7 @@ import SettingsIcon from '@material-ui/icons/Settings';
 import LockOpenIcon from '@material-ui/icons/LockOpen';
 import CastForEducationIcon from '@material-ui/icons/CastForEducation';
 import GroupAddIcon from '@material-ui/icons/GroupAdd';
+import GroupWorkIcon from '@material-ui/icons/GroupWork';
 
 import { Profile, SidebarNav, UpgradePlan } from './components';
 
@@ -56,6 +57,11 @@ const Sidebar = props => {
       icon: <GroupAddIcon />
     },
     {
+      title: 'Groups',
+      href: '/groups',
+      icon: <GroupWorkIcon />
+    },
+    {
       title: 'Study Buddies',
       href: '/users',
       icon: <PeopleIcon />
@@ -70,16 +76,16 @@ const Sidebar = props => {
     //   href: '/sign-in',
     //   icon: <LockOpenIcon />
     // },
-    {
-      title: 'Typography',
-      href: '/typography',
-      icon: <TextFieldsIcon />
-    },
-    {
-      title: 'Icons',
-      href: '/icons',
-      icon: <ImageIcon />
-    },
+    // {
+    //   title: 'Typography',
+    //   href: '/typography',
+    //   icon: <TextFieldsIcon />
+    // },
+    // {
+    //   title: 'Icons',
+    //   href: '/icons',
+    //   icon: <ImageIcon />
+    // },
     {
       title: 'Account',
       href: '/account',

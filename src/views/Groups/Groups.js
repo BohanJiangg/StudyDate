@@ -22,7 +22,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-const FindAStudyBuddy = () => {
+const Groups = () => {
   const classes = useStyles();
 
   const [products] = useState(mockData);
@@ -61,4 +61,4 @@ const FindAStudyBuddy = () => {
   );
 };
 
-export default FindAStudyBuddy;
+export default Groups;

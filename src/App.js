@@ -11,6 +11,7 @@ import 'react-perfect-scrollbar/dist/css/styles.css';
 import './assets/scss/index.scss';
 import validators from './common/validators';
 import Routes from './Routes';
+import { Dashboard } from 'views';
 
 const browserHistory = createBrowserHistory();
 
@@ -27,7 +28,28 @@ export default class App extends Component {
 
   constructor() {
     super();
-    this.state = { isAuthenticated: false, user: null, token: ''};
+    //this.state = { isAuthenticated: false, user: null, token: ''};
+    this.state = {
+      messageList: []
+    };
+  }
+  
+  _onMessageWasSent(message) {
+    this.setState({
+      messageList: [...this.state.messageList, message]
+    })
+  }
+
+  _sendMessage(text) {
+    if (text.length > 0) {
+      this.setState({
+        messageList: [...this.state.messageList, {
+          author: 'them',
+          type: 'text',
+          data: { text }
+        }]
+      })
+    }
   }
   
   //changeState = (vars) => {
