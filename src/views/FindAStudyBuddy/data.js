@@ -3,9 +3,9 @@ import uuid from 'uuid/v1';
 export default [
   {
     id: uuid(),
-    title: 'Sam Brown',
+    title: 'Chantal Valdivia',
     description:'MIT 2022. CS Major, Musical Theatre minor',
-    imageUrl: '/images/products/product_1.jpeg',
+    imageUrl: '/images/avatars/chantal.jpg',
     totalDownloads: '594',
     updatedAt: '27/03/2019'
   },
@@ -14,7 +14,7 @@ export default [
     title: 'Mark Zuk',
     description:
       'MIT 2020. CS Major',
-    imageUrl: '/images/products/machine learning.png',
+    imageUrl: '/images/avatars/noah.jpg',
     totalDownloads: '406',
     createdAt: '04/04/2019'
   },
@@ -23,7 +23,7 @@ export default [
     title: 'Jen Howe',
     description:
       'Wellesley 2022. MAS major',
-    imageUrl: '/images/products/soc.jpg',
+    imageUrl: '/images/avatars/rebekah.jpg',
     totalDownloads: '835',
     createdAt: '04/04/2019'
   },
@@ -31,8 +31,8 @@ export default [
     id: uuid(),
     title: "Xavier O'Connor",
     description:
-      ' ',
-    imageUrl: '/images/products/musical theatre.jpg',
+      'MIT 2023. Econ major, anthro minor',
+    imageUrl: '/images/avatars/sean.jpg',
     totalDownloads: '625',
     createdAt: '31/03/2019'
   },
@@ -41,7 +41,7 @@ export default [
     title: 'Gabriela Garcia',
     description:
       'Wellesley 2022. Linguistics major',
-    imageUrl: '/images/products/genes.jpg',
+    imageUrl: '/images/avatars/gabby.jpg',
     totalDownloads: '857',
     createdAt: '03/04/2019'
   }
