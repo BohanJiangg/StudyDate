@@ -53,9 +53,11 @@ const Test = props => {
       <CardContent>
         <Grid
           container
+          flexDirection="row"
           justify="space-between"
         >
-          <Grid item>
+
+          <Grid >
             <Typography
               className={classes.title}
               color="textSecondary"
@@ -64,13 +66,22 @@ const Test = props => {
             >
               RESUME COURSES
             </Typography>
-            
-            <Typography variant="h3">Intro to Financial Accounting</Typography>
-            <img height="50%" 
+            <center>
+            <Typography variant="h3" style={{marginBottom:3}}>Intro to Financial Accounting</Typography>
+            <img height="20%" 
             width="20%" src='/images/Courses/finance.jpg'/>
-            <Typography variant="h3">Computer Systems and Hardware</Typography>
-            <Typography variant="h3">Urban Studies and Policy</Typography>
-            <Typography variant="h3">Portuguese Literature</Typography>
+            <Typography variant="h3" style={{marginBottom:3}}>Computer Systems and Hardware</Typography>
+            <img height="20%" 
+            width="20%" src='/images/Courses/computer_hardware.jpeg'/>
+            <Typography variant="h3" style={{marginBottom:3}}>Urban Studies and Policy</Typography>
+            <img height="20%" 
+            width="20%" src='/images/Courses/urban_studies.jpeg'/>
+            <Typography variant="h3" style={{marginBottom:3}}>Portuguese Literature</Typography>
+            <img height="20%" 
+            width="20%" src='/images/Courses/portuguese_lit.jpeg'/>
+            </center>
+            <Typography variant="h3"></Typography>
+
           </Grid>
           
         </Grid>
