@@ -3,47 +3,46 @@ import uuid from 'uuid/v1';
 export default [
   {
     id: uuid(),
-    title: 'Underwater Basket Weaving',
-    description:'Are you struggling to weave your baskets? Learn all weaving techniques step-by-step. Consists of short lecture and demonstration videos, between 8 and 10 minutes in length, short quizzes, and practical weaving exercises.',
-    imageUrl: '/images/products/product_1.jpeg',
+    title: 'Wellesley Neuro 100',
+    description:'Group for MCB127! We also meet every Weds. 6-8pm in Clapp.',
+    imageUrl: '/images/Courses/Neurology.jpg',
     totalDownloads: '594',
     updatedAt: '27/03/2019'
   },
   {
     id: uuid(),
-    title: 'Machine Learning',
+    title: 'CS61B: Data Structures',
     description:
-      'Machine learning is the science of teaching computers how to learn from observations. This course covers the theoretical ideas behind widely used algorithms like support vector machines, neural networks, graphical models, decision trees, and more.',
-    imageUrl: '/images/products/machine learning.png',
-    totalDownloads: '406',
-    createdAt: '04/04/2019'
-  },
-  {
-    id: uuid(),
-    title: 'Social Computing',
-    description:
-      'Social Computing systems connect us to our closest friends, and globally to people all over the world. In recent decades, companies like Facebook, Snapchat, and even Amazon, have reshaped our social environments.',
-    imageUrl: '/images/products/soc.jpg',
+      'Study group for CS61B! Virtual study hangout every Tues.!',
+    imageUrl: '/images/courses/data_structures.jpg',
     totalDownloads: '835',
     createdAt: '04/04/2019'
   },
   {
     id: uuid(),
-    title: 'Musical Theatre',
+    title: 'Computer Science Mentors',
     description:
-      'We explore the boundaries, powers, and conversations great musicals having with one another, as long with who creates them.',
-    imageUrl: '/images/products/musical theatre.jpg',
+      'Sharing tips for computer science mentoring and edumacation!',
+    imageUrl: '/images/courses/computer_science_mentors.png',
     totalDownloads: '625',
     createdAt: '31/03/2019'
   },
   {
     id: uuid(),
-    title: 'Genetics',
+    title: 'MCB140: Genetics',
     description:
-      'Develop an understanding of the fundamental principles of genetics at the molecular, cellular, organismal and population levels.',
+      'Study group for MCB140. We share flashcards, do study hangouts, and have fun in MCB140 together!',
     imageUrl: '/images/products/genes.jpg',
     totalDownloads: '857',
     createdAt: '03/04/2019'
+  },
+  {
+    id: uuid(),
+    title: 'Machine Learning 101',
+    description:
+      'Study group for Stat120!',
+    imageUrl: '/images/products/machine learning.png',
+    totalDownloads: '406',
+    createdAt: '04/04/2019'
   }
-  
 ];
