@@ -204,18 +204,21 @@ const CourseInterests = props => {
               >
               Data Science
             </Button>
+            <p style={{marginRight:2}}></p>
             <Button
               color="primary"
               variant="contained"
               >
               Finance
             </Button>
+            <p style={{marginRight:2}}></p>
             <Button
               color="primary"
               variant="contained"
               >
               Machine Learning
             </Button>
+            <p style={{marginRight:2}}></p>
             <Button
               color="primary"
               variant="contained"
