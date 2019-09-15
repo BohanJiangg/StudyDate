@@ -40,7 +40,7 @@ const UsersToolbar = props => {
       className={clsx(classes.root, className)}
     >
       <div className={classes.row}>
-        <Typography variant="h4">Friends</Typography>
+        <Typography variant="h4">Study Buddies</Typography>
         <span className={classes.spacer} />
         <Button className={classes.importButton}>Import</Button>
         <Button className={classes.exportButton}>Export</Button>
@@ -54,7 +54,7 @@ const UsersToolbar = props => {
       <div className={classes.row}>
         <SearchInput
           className={classes.searchInput}
-          placeholder="Search friends"
+          placeholder="Search study buddies"
         />
       </div>
     </div>

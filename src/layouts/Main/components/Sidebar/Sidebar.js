@@ -56,7 +56,7 @@ const Sidebar = props => {
       icon: <GroupAddIcon />
     },
     {
-      title: 'Friends',
+      title: 'Study Buddies',
       href: '/users',
       icon: <PeopleIcon />
     },
