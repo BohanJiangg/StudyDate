@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/styles';
 import { Card, CardContent, Grid, Typography, Avatar } from '@material-ui/core';
-import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
+
 import PeopleIcon from '@material-ui/icons/PeopleOutlined';
 
 const useStyles = makeStyles(theme => ({
@@ -64,7 +64,7 @@ const TotalUsers = props => {
               gutterBottom
               variant="body2"
             >
-              FRIEND PROGRESS
+              FRIENDS PROGRESS
             </Typography>
             <Typography variant="h3">Julie just completed Chapter 5 of Portuguese Literature!</Typography>
             <Typography variant="h3">Emma just completed Chapter 3 of Computer Systems!</Typography>
@@ -81,21 +81,7 @@ const TotalUsers = props => {
             
           </Grid>
         </Grid>
-        <div className={classes.difference}>
-          <ArrowUpwardIcon className={classes.differenceIcon} />
-          <Typography
-            className={classes.differenceValue}
-            variant="body2"
-          >
-            16%
-          </Typography>
-          <Typography
-            className={classes.caption}
-            variant="caption"
-          >
-            Since last month
-          </Typography>
-        </div>
+        
       </CardContent>
     </Card>
   );
