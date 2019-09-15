@@ -1,2 +1,2 @@
-export { default as AccountDetails } from './AccountDetails';
-export { default as AccountProfile } from './AccountProfile';
+export { default as ProductCard } from './ProductCard';
+export { default as ProductsToolbar } from './ProductsToolbar';

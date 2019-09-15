@@ -1,43 +1,62 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/styles';
-import { Grid } from '@material-ui/core';
+import { IconButton, Grid, Typography } from '@material-ui/core';
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
+import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 
-import { AccountProfile, AccountDetails } from './components';
+import { ProductsToolbar, ProductCard } from './components';
+import mockData from './data';
 
 const useStyles = makeStyles(theme => ({
   root: {
-    padding: theme.spacing(4)
+    padding: theme.spacing(3)
+  },
+  content: {
+    marginTop: theme.spacing(2)
+  },
+  pagination: {
+    marginTop: theme.spacing(3),
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'flex-end'
   }
 }));
 
 const FindAStudyBuddy = () => {
   const classes = useStyles();
 
+  const [products] = useState(mockData);
+
   return (
     <div className={classes.root}>
-      <Grid
-        container
-        spacing={4}
-      >
+      <ProductsToolbar />
+      <div className={classes.content}>
         <Grid
-          item
-          lg={4}
-          md={6}
-          xl={4}
-          xs={12}
+          container
+          spacing={3}
         >
-          <AccountProfile />
+          {products.map(product => (
+            <Grid
+              item
+              key={product.id}
+              lg={4}
+              md={6}
+              xs={12}
+            >
+              <ProductCard product={product} />
+            </Grid>
+          ))}
         </Grid>
-        <Grid
-          item
-          lg={8}
-          md={6}
-          xl={8}
-          xs={12}
-        >
-          <AccountDetails />
-        </Grid>
-      </Grid>
+      </div>
+      <div className={classes.pagination}>
+        <Typography variant="caption">1-5 of 5</Typography>
+        <IconButton>
+          <ChevronLeftIcon />
+        </IconButton>
+        <IconButton>
+          <ChevronRightIcon />
+        </IconButton>
+      </div>
     </div>
   );
 };

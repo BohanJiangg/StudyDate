@@ -62,7 +62,7 @@ const Sidebar = props => {
       icon: <GroupWorkIcon />
     },
     {
-      title: 'Study',
+      title: 'Study Buddies',
       href: '/users',
       icon: <PeopleIcon />
     },
