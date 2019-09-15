@@ -42,25 +42,28 @@ const ProductsToolbar = props => {
       <div className={classes.row}>
         <Typography variant="h4">Groups</Typography>
         <span className={classes.spacer} />
-        <Button
-          color="primary"
-          variant="contained"
-        >
-          Create New Group
-        </Button>
-        <span className={classes.spacer} />
-        <Button
-          color="primary"
-          variant="contained"
-        >
-          Add Groups
-        </Button>
+        
       </div>
       <div className={classes.row}>
         <SearchInput
           className={classes.searchInput}
           placeholder="Search Groups"
         />
+        <span className={classes.spacer} />
+        <Button
+          color="primary"
+          variant="contained"
+         
+        >
+          Create New Group
+        </Button>
+        <p style={{marginRight:2}}></p>
+        <Button
+          color="primary"
+          variant="contained"
+        >
+          Add Groups
+        </Button>
       </div>
     </div>
   );
