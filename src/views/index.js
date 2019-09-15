@@ -1,6 +1,7 @@
 export { default as Account } from './Account';
 export { default as Dashboard } from './Dashboard';
 export { default as FindAStudyBuddy } from './FindAStudyBuddy';
+export { default as Groups } from './Groups';
 export { default as Icons } from './Icons';
 export { default as NotFound } from './NotFound';
 export { default as CourseList } from './CourseList';
