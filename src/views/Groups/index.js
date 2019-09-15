@@ -1,1 +1,1 @@
-export { default } from './FindAStudyBuddy';
+export { default } from './Groups';
