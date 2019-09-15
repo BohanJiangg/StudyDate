@@ -42,13 +42,11 @@ const UsersToolbar = props => {
       <div className={classes.row}>
         <Typography variant="h4">Study Buddies</Typography>
         <span className={classes.spacer} />
-        <Button className={classes.importButton}>Import</Button>
-        <Button className={classes.exportButton}>Export</Button>
         <Button
           color="primary"
           variant="contained"
         >
-          Add user
+          Message Friend(s)
         </Button>
       </div>
       <div className={classes.row}>
