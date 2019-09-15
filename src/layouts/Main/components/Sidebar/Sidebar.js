@@ -12,6 +12,7 @@ import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import SettingsIcon from '@material-ui/icons/Settings';
 import LockOpenIcon from '@material-ui/icons/LockOpen';
 import CastForEducationIcon from '@material-ui/icons/CastForEducation';
+import GroupAddIcon from '@material-ui/icons/GroupAdd';
 
 import { Profile, SidebarNav, UpgradePlan } from './components';
 
@@ -48,6 +49,11 @@ const Sidebar = props => {
       title: 'Dashboard',
       href: '/dashboard',
       icon: <DashboardIcon />
+    },
+    {
+      title: 'Find a study buddy',
+      href: '/findastudybuddy',
+      icon: <GroupAddIcon />
     },
     {
       title: 'Friends',

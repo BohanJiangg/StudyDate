@@ -8,6 +8,7 @@ import {
   Dashboard as DashboardView,
   CourseList as CourseListView,
   UserList as UserListView,
+  FindAStudyBuddy as FindAStudyBuddyView,
   Typography as TypographyView,
   Icons as IconsView,
   Account as AccountView,
@@ -30,6 +31,12 @@ const Routes = () => {
         exact
         layout={MainLayout}
         path="/dashboard"
+      />
+      <RouteWithLayout
+        component={FindAStudyBuddyView}
+        exact
+        layout={MainLayout}
+        path="/findastudybuddy"
       />
       <RouteWithLayout
         component={UserListView}
