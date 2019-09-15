@@ -62,7 +62,7 @@ const Test = props => {
               gutterBottom
               variant="body2"
             >
-              Resume Courses
+              RESUME COURSES
             </Typography>
             
             <Typography variant="h3">Intro to Financial Accounting</Typography>

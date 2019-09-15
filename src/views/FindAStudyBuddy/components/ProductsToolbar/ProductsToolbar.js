@@ -39,14 +39,14 @@ const ProductsToolbar = props => {
       className={clsx(classes.root, className)}
     >
       <div className={classes.row}>
-        <Typography variant="h4">Courses</Typography>
+        <Typography variant="h4">Find a study buddy</Typography>
         <span className={classes.spacer} />
-        <Button
+        {/* <Button
           color="primary"
           variant="contained"
         >
-          Add Course
-        </Button>
+          Add Study Buddy
+        </Button> */}
       </div>
       <div className={classes.row}>
         <SearchInput

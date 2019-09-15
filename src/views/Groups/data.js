@@ -13,7 +13,7 @@ export default [
     id: uuid(),
     title: 'CS61B: Data Structures',
     description:
-      'Study group for CS61B! Virtual study hangout every Tues.!',
+      'Study group for CS61B! Virtual study hangout every Tuesday!',
     imageUrl: '/images/courses/data_structures.jpg',
     totalDownloads: '835',
     createdAt: '04/04/2019'
@@ -40,7 +40,7 @@ export default [
     id: uuid(),
     title: 'Machine Learning 101',
     description:
-      'Study group for Stat120!',
+      'Study group for Machine Learning 101. MWF Pendelton East 205.',
     imageUrl: '/images/products/machine learning.png',
     totalDownloads: '406',
     createdAt: '04/04/2019'

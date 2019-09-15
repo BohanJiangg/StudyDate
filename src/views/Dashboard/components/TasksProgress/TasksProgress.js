@@ -10,6 +10,7 @@ import {
   Avatar,
   LinearProgress
 } from '@material-ui/core';
+import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
 import InsertChartIcon from '@material-ui/icons/InsertChartOutlined';
 
 const useStyles = makeStyles(theme => ({
@@ -75,6 +76,7 @@ const TasksProgress = props => {
           value={75.5}
           variant="determinate"
         />
+
       </CardContent>
     </Card>
   );

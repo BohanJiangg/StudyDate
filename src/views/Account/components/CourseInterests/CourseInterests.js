@@ -207,6 +207,7 @@ const CourseInterests = props => {
               >
               Data Science
             </Button>
+            <p style={{marginRight:2}}></p>
             <Button
             style={{marginTop:3, marginRight:4, marginBotton:3}}
               color="primary"
@@ -214,6 +215,7 @@ const CourseInterests = props => {
               >
               Finance
             </Button>
+            <p style={{marginRight:2}}></p>
             <Button
             style={{marginTop:3, marginRight:4, marginBotton:3}}
               color="primary"
@@ -221,6 +223,7 @@ const CourseInterests = props => {
               >
               Machine Learning
             </Button>
+            <p style={{marginRight:2}}></p>
             <Button
             style={{marginTop:3, marginRight:4, marginBotton:3}}
               color="primary"

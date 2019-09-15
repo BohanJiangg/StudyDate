@@ -8,7 +8,8 @@ import {
   CardActions,
   Typography,
   Grid,
-  Divider
+  Divider,
+  Button
 } from '@material-ui/core';
 import AccessTimeIcon from '@material-ui/icons/AccessTime';
 import GetAppIcon from '@material-ui/icons/LocalLibrary';
@@ -70,6 +71,13 @@ const ProductCard = props => {
         >
           {product.description}
         </Typography>
+        <Button
+          color="primary"
+          variant="contained"
+          size='small'
+        >
+          Add Course
+        </Button>
       </CardContent>
       <Divider />
       <CardActions>
