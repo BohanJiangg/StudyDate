@@ -68,9 +68,11 @@ const ProductCard = props => {
         <Typography
           align="center"
           variant="body1"
+          style={{marginBottom:15}}
         >
           {product.description}
         </Typography>
+        <center>
         <Button
           color="primary"
           variant="contained"
@@ -78,6 +80,7 @@ const ProductCard = props => {
         >
           Add Course
         </Button>
+        </center>
       </CardContent>
       <Divider />
       <CardActions>

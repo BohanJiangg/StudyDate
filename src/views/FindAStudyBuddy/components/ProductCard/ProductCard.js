@@ -16,7 +16,7 @@ import GetAppIcon from '@material-ui/icons/LocalLibrary';
 
 const useStyles = makeStyles(theme => ({
   root: {
-      justifyContent: 'center'
+      justifyContent: 'center',
   },
   imageContainer: {
     height: 128,
@@ -52,7 +52,7 @@ const ProductCard = props => {
       {...rest}
       className={clsx(classes.root, className)}
     >
-      <CardContent style={{justifyContent: 'center'}}>
+      <CardContent >
         <div className={classes.imageContainer}>
           <img
             alt="Product"
@@ -62,7 +62,7 @@ const ProductCard = props => {
         </div>
         <Typography
           align="center"
-          gutterBottom
+          
           variant="h4"
         >
           {product.title}
@@ -70,16 +70,20 @@ const ProductCard = props => {
         <Typography
           align="center"
           variant="body1"
+          style={{marginBottom:15}}
         >
           {product.description}
         </Typography>
+        <center>
         <Button
           color="primary"
           variant="contained"
           size='small'
+          
         >
           Add Study Buddy
         </Button>
+        </center>
       </CardContent>
       <Divider />
       <CardActions>
