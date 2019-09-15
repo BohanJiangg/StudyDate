@@ -70,7 +70,7 @@ const CourseInterests = props => {
           <Grid
             container
             spacing={3}
-          >
+            >
             <Grid
               item
               md={6}
